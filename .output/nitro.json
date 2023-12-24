@@ -1,0 +1,12 @@
+{
+  "date": "2023-12-24T09:37:38.924Z",
+  "preset": "aws-lambda",
+  "framework": {
+    "name": "nuxt",
+    "version": "3.8.2"
+  },
+  "versions": {
+    "nitro": "2.8.0"
+  },
+  "commands": {}
+}
