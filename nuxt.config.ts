@@ -2,11 +2,6 @@
 import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  nitro: {
-    preset: 'aws-lambda',
-    serveStatic: false
-  },
-
   ssr: true,
   modules: ['@sidebase/nuxt-auth', '@nuxtjs/tailwindcss'],
   head: {
